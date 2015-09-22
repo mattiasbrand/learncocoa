@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="7706"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="MainWindowController" customModule="BusyApp" customModuleProvider="target">
+            <connections>
+                <outlet property="checkBox" destination="6Zs-BF-yWU" id="Egg-bQ-8yg"/>
+                <outlet property="hideTickMarks" destination="MOF-fi-r83" id="FHG-tc-g9Q"/>
+                <outlet property="revealTextField" destination="mkG-AF-0Mc" id="J61-uU-mjj"/>
+                <outlet property="secureTextField" destination="I14-Oo-oVW" id="SyW-jN-4PZ"/>
+                <outlet property="showTickMarks" destination="6mi-yZ-NW5" id="VLz-ap-pV0"/>
+                <outlet property="slider" destination="onu-NQ-6Vp" id="m96-6i-KjB"/>
+                <outlet property="sliderText" destination="PhQ-yu-vc7" id="5TT-yf-ztR"/>
+                <outlet property="window" destination="YZt-dE-5g6" id="O8V-S7-eRk"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <window title="Busy App" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="YZt-dE-5g6">
+            <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
+            <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+            <rect key="contentRect" x="283" y="305" width="480" height="270"/>
+            <rect key="screenRect" x="0.0" y="0.0" width="2560" height="1417"/>
+            <view key="contentView" id="YQS-HQ-ZJF">
+                <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6Zs-BF-yWU">
+                        <rect key="frame" x="269" y="221" width="107" height="18"/>
+                        <buttonCell key="cell" type="check" title="Uncheck me" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="nor-7T-pIV">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="onCheckedChanged:" target="-2" id="tQG-f5-ypB"/>
+                        </connections>
+                    </button>
+                    <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rgc-lJ-Fai">
+                        <rect key="frame" x="265" y="110" width="199" height="32"/>
+                        <buttonCell key="cell" type="push" title="Reveal the secret message" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="1Bo-96-oa3">
+                            <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="revealButtonClicked:" target="-2" id="Qqd-qE-vjW"/>
+                        </connections>
+                    </button>
+                    <textField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mkG-AF-0Mc">
+                        <rect key="frame" x="271" y="49" width="187" height="55"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" state="on" borderStyle="bezel" drawsBackground="YES" id="5XB-ZJ-30w">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                    <box verticalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="Kc2-eB-7vT">
+                        <rect key="frame" x="271" y="204" width="187" height="5"/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <font key="titleFont" metaFont="system"/>
+                    </box>
+                    <box horizontalHuggingPriority="750" fixedFrame="YES" title="Box" boxType="separator" titlePosition="noTitle" translatesAutoresizingMaskIntoConstraints="NO" id="hZx-Tk-7Zc">
+                        <rect key="frame" x="238" y="12" width="5" height="246"/>
+                        <color key="borderColor" white="0.0" alpha="0.41999999999999998" colorSpace="calibratedWhite"/>
+                        <color key="fillColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <font key="titleFont" metaFont="system"/>
+                    </box>
+                    <slider horizontalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="onu-NQ-6Vp">
+                        <rect key="frame" x="18" y="57" width="21" height="182"/>
+                        <sliderCell key="cell" continuous="YES" alignment="left" maxValue="100" doubleValue="50" tickMarkPosition="right" sliderType="linear" id="Wok-ka-bQJ"/>
+                        <connections>
+                            <action selector="sliderChanged:" target="-2" id="1Bd-UJ-PlL"/>
+                        </connections>
+                    </slider>
+                    <secureTextField verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="I14-Oo-oVW">
+                        <rect key="frame" x="271" y="152" width="189" height="46"/>
+                        <secureTextFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" usesSingleLineMode="YES" id="6HV-Rk-LbZ">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                            <allowedInputSourceLocales>
+                                <string>NSAllRomanInputSourcesLocaleIdentifier</string>
+                            </allowedInputSourceLocales>
+                        </secureTextFieldCell>
+                    </secureTextField>
+                    <button fixedFrame="YES" tag="2" translatesAutoresizingMaskIntoConstraints="NO" id="6mi-yZ-NW5">
+                        <rect key="frame" x="56" y="89" width="160" height="23"/>
+                        <buttonCell key="cell" type="radio" title="Show slider tick marks" bezelStyle="regularSquare" imagePosition="left" alignment="left" inset="2" id="nKd-gv-Gwq">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="tickMarkChanged:" target="-2" id="6YX-yL-aq4"/>
+                        </connections>
+                    </button>
+                    <button fixedFrame="YES" tag="1" translatesAutoresizingMaskIntoConstraints="NO" id="MOF-fi-r83">
+                        <rect key="frame" x="56" y="62" width="167" height="23"/>
+                        <buttonCell key="cell" type="radio" title="Hide slider tick marks" bezelStyle="regularSquare" imagePosition="left" alignment="left" state="on" inset="2" id="ube-T7-MJS">
+                            <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                            <font key="font" metaFont="system"/>
+                        </buttonCell>
+                        <connections>
+                            <action selector="tickMarkChanged:" target="-2" id="yUP-RR-4vc"/>
+                        </connections>
+                    </button>
+                    <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PhQ-yu-vc7">
+                        <rect key="frame" x="57" y="167" width="140" height="17"/>
+                        <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" id="2vp-fu-WWX">
+                            <font key="font" metaFont="system"/>
+                            <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                            <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
+                        </textFieldCell>
+                    </textField>
+                </subviews>
+            </view>
+            <point key="canvasLocation" x="276" y="422"/>
+        </window>
+    </objects>
+</document>

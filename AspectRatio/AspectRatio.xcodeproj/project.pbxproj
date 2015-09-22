@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		959F58A61B62F6BF00E7A12E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F58A51B62F6BF00E7A12E /* AppDelegate.swift */; };
+		959F58A81B62F6BF00E7A12E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 959F58A71B62F6BF00E7A12E /* Images.xcassets */; };
+		959F58AB1B62F6BF00E7A12E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959F58A91B62F6BF00E7A12E /* MainMenu.xib */; };
+		959F58B71B62F6BF00E7A12E /* AspectRatioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F58B61B62F6BF00E7A12E /* AspectRatioTests.swift */; };
+		959F58C21B62FC7500E7A12E /* MainWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959F58C01B62FC7500E7A12E /* MainWindowController.swift */; };
+		959F58C31B62FC7500E7A12E /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 959F58C11B62FC7500E7A12E /* MainWindowController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		959F58B11B62F6BF00E7A12E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 959F58981B62F6BF00E7A12E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 959F589F1B62F6BF00E7A12E;
+			remoteInfo = AspectRatio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		959F58A01B62F6BF00E7A12E /* AspectRatio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AspectRatio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		959F58A41B62F6BF00E7A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959F58A51B62F6BF00E7A12E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		959F58A71B62F6BF00E7A12E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		959F58AA1B62F6BF00E7A12E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		959F58B01B62F6BF00E7A12E /* AspectRatioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AspectRatioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		959F58B51B62F6BF00E7A12E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		959F58B61B62F6BF00E7A12E /* AspectRatioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectRatioTests.swift; sourceTree = "<group>"; };
+		959F58C01B62FC7500E7A12E /* MainWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowController.swift; sourceTree = "<group>"; };
+		959F58C11B62FC7500E7A12E /* MainWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindowController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		959F589D1B62F6BF00E7A12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959F58AD1B62F6BF00E7A12E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		959F58971B62F6BF00E7A12E = {
+			isa = PBXGroup;
+			children = (
+				959F58A21B62F6BF00E7A12E /* AspectRatio */,
+				959F58B31B62F6BF00E7A12E /* AspectRatioTests */,
+				959F58A11B62F6BF00E7A12E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		959F58A11B62F6BF00E7A12E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				959F58A01B62F6BF00E7A12E /* AspectRatio.app */,
+				959F58B01B62F6BF00E7A12E /* AspectRatioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		959F58A21B62F6BF00E7A12E /* AspectRatio */ = {
+			isa = PBXGroup;
+			children = (
+				959F58A51B62F6BF00E7A12E /* AppDelegate.swift */,
+				959F58A71B62F6BF00E7A12E /* Images.xcassets */,
+				959F58A91B62F6BF00E7A12E /* MainMenu.xib */,
+				959F58A31B62F6BF00E7A12E /* Supporting Files */,
+				959F58C01B62FC7500E7A12E /* MainWindowController.swift */,
+				959F58C11B62FC7500E7A12E /* MainWindowController.xib */,
+			);
+			path = AspectRatio;
+			sourceTree = "<group>";
+		};
+		959F58A31B62F6BF00E7A12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				959F58A41B62F6BF00E7A12E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		959F58B31B62F6BF00E7A12E /* AspectRatioTests */ = {
+			isa = PBXGroup;
+			children = (
+				959F58B61B62F6BF00E7A12E /* AspectRatioTests.swift */,
+				959F58B41B62F6BF00E7A12E /* Supporting Files */,
+			);
+			path = AspectRatioTests;
+			sourceTree = "<group>";
+		};
+		959F58B41B62F6BF00E7A12E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				959F58B51B62F6BF00E7A12E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		959F589F1B62F6BF00E7A12E /* AspectRatio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959F58BA1B62F6BF00E7A12E /* Build configuration list for PBXNativeTarget "AspectRatio" */;
+			buildPhases = (
+				959F589C1B62F6BF00E7A12E /* Sources */,
+				959F589D1B62F6BF00E7A12E /* Frameworks */,
+				959F589E1B62F6BF00E7A12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AspectRatio;
+			productName = AspectRatio;
+			productReference = 959F58A01B62F6BF00E7A12E /* AspectRatio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		959F58AF1B62F6BF00E7A12E /* AspectRatioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 959F58BD1B62F6BF00E7A12E /* Build configuration list for PBXNativeTarget "AspectRatioTests" */;
+			buildPhases = (
+				959F58AC1B62F6BF00E7A12E /* Sources */,
+				959F58AD1B62F6BF00E7A12E /* Frameworks */,
+				959F58AE1B62F6BF00E7A12E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				959F58B21B62F6BF00E7A12E /* PBXTargetDependency */,
+			);
+			name = AspectRatioTests;
+			productName = AspectRatioTests;
+			productReference = 959F58B01B62F6BF00E7A12E /* AspectRatioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		959F58981B62F6BF00E7A12E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Mattias Brand";
+				TargetAttributes = {
+					959F589F1B62F6BF00E7A12E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					959F58AF1B62F6BF00E7A12E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 959F589F1B62F6BF00E7A12E;
+					};
+				};
+			};
+			buildConfigurationList = 959F589B1B62F6BF00E7A12E /* Build configuration list for PBXProject "AspectRatio" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 959F58971B62F6BF00E7A12E;
+			productRefGroup = 959F58A11B62F6BF00E7A12E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				959F589F1B62F6BF00E7A12E /* AspectRatio */,
+				959F58AF1B62F6BF00E7A12E /* AspectRatioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		959F589E1B62F6BF00E7A12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959F58A81B62F6BF00E7A12E /* Images.xcassets in Resources */,
+				959F58C31B62FC7500E7A12E /* MainWindowController.xib in Resources */,
+				959F58AB1B62F6BF00E7A12E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959F58AE1B62F6BF00E7A12E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		959F589C1B62F6BF00E7A12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959F58C21B62FC7500E7A12E /* MainWindowController.swift in Sources */,
+				959F58A61B62F6BF00E7A12E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959F58AC1B62F6BF00E7A12E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				959F58B71B62F6BF00E7A12E /* AspectRatioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		959F58B21B62F6BF00E7A12E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 959F589F1B62F6BF00E7A12E /* AspectRatio */;
+			targetProxy = 959F58B11B62F6BF00E7A12E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		959F58A91B62F6BF00E7A12E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				959F58AA1B62F6BF00E7A12E /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		959F58B81B62F6BF00E7A12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		959F58B91B62F6BF00E7A12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		959F58BB1B62F6BF00E7A12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AspectRatio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		959F58BC1B62F6BF00E7A12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AspectRatio/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		959F58BE1B62F6BF00E7A12E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AspectRatioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspectRatio.app/Contents/MacOS/AspectRatio";
+			};
+			name = Debug;
+		};
+		959F58BF1B62F6BF00E7A12E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AspectRatioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AspectRatio.app/Contents/MacOS/AspectRatio";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		959F589B1B62F6BF00E7A12E /* Build configuration list for PBXProject "AspectRatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959F58B81B62F6BF00E7A12E /* Debug */,
+				959F58B91B62F6BF00E7A12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		959F58BA1B62F6BF00E7A12E /* Build configuration list for PBXNativeTarget "AspectRatio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959F58BB1B62F6BF00E7A12E /* Debug */,
+				959F58BC1B62F6BF00E7A12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		959F58BD1B62F6BF00E7A12E /* Build configuration list for PBXNativeTarget "AspectRatioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				959F58BE1B62F6BF00E7A12E /* Debug */,
+				959F58BF1B62F6BF00E7A12E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 959F58981B62F6BF00E7A12E /* Project object */;
+}
